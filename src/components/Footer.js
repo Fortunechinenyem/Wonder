@@ -8,16 +8,16 @@ const Footer = () => {
       <div className="logo m-3">
         <img src={logo} alt={Footer.png} />
       </div>
-      <div className="text-center ">
+      <div className="text-center row ">
         <div className="">
           <div className="footer">
-            <footer className="footer">
+            <footer className="footer col-md">
               <div>
                 <h5>Contact</h5>
                 <a href="mailto:buzzimails@gmail.com" className="footer__link">
                   wondergoldchineyem@gmail.com
                 </a>
-                <ul className="social-list">
+                <ul className="social-list col-md">
                   <li className="social-list__item">
                     <a
                       className="social-list__link"

@@ -357,7 +357,7 @@ header {
 
 /* footer */
 .footer {
-  background: var(--clr-dark);
+  background: rgb(36, 35, 35);
   color: var(--clr-light);
   text-align: center;
   align-content: center;

@@ -4,20 +4,20 @@ import logo from "../images/wonderlogo.svg";
 
 const Footer = () => {
   return (
-    <section>
-      <div className="logo m-3">
-        <img src={logo} alt={Footer.png} />
-      </div>
-      <div className="text-center row ">
+    <>
+      <div className="text-center ">
         <div className="">
           <div className="footer">
-            <footer className="footer col-md">
+            <footer className="footer">
+              <div className="logo mt-3">
+                <img src={logo} alt={Footer.png} />
+              </div>
               <div>
                 <h5>Contact</h5>
                 <a href="mailto:buzzimails@gmail.com" className="footer__link">
                   wondergoldchineyem@gmail.com
                 </a>
-                <ul className="social-list col-md">
+                <ul className="social-list">
                   <li className="social-list__item">
                     <a
                       className="social-list__link"
@@ -61,13 +61,11 @@ const Footer = () => {
                 </ul>
               </div>
             </footer>
-
-            <p>​Copyright © 2022, WonderGold. </p>
-            <p>All Rights Reserved.</p>
+            ​Copyright © 2022, WonderGold. All Rights Reserved.
           </div>
         </div>
       </div>
-    </section>
+    </>
   );
 };
 export default Footer;

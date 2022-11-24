@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="logo m-3">
         <img src={logo} alt={Footer.png} />
       </div>
-      <div className="text-center container">
+      <div className="text-center ">
         <div className="">
           <div className="footer">
             <footer className="footer">

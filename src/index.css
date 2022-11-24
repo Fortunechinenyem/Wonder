@@ -357,8 +357,8 @@ header {
 
 /* footer */
 .footer {
-  background: var(--clr-light);
-  color: var(--clr-dark);
+  background: var(--clr-dark);
+  color: var(--clr-light);
   text-align: center;
   align-content: center;
   padding: 2.5em 0;

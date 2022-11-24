@@ -4,8 +4,8 @@ import logo from "../images/wonderlogo.svg";
 
 const Footer = () => {
   return (
-    <>
-      <div className="text-center text-white">
+    <section>
+      <div className="text-center container">
         <div className="">
           <div className="footer">
             <footer className="footer">
@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 export default Footer;

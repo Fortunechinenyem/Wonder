@@ -62,7 +62,8 @@ const Footer = () => {
               </div>
             </footer>
 
-            <p>​Copyright © 2022, WonderGold. All Rights Reserved.</p>
+            <p>​Copyright © 2022, WonderGold. </p>
+            <p>All Rights Reserved.</p>
           </div>
         </div>
       </div>

@@ -7,13 +7,13 @@ const HomeFeatures = () => {
   return (
     <>
       <section>
-        <div className="d-flex m-3 w-100 g-3  text-center">
-          <div className="card ">
+        <div className="d-flex m-3 w-100 container row   text-center">
+          <div className="card col-md ">
             <div className="card-body mx-auto">
               <img
                 src={logo1}
                 alt={HomeFeatures.jpg}
-                className="col-md "
+                className=" "
                 height="350px"
                 style={{ objectFit: "cover" }}
               />
@@ -24,12 +24,12 @@ const HomeFeatures = () => {
               </Link>
             </div>
           </div>
-          <div className="card">
+          <div className="card col-md ">
             <div className="card-body mx-auto">
               <img
                 src={logo2}
                 alt={HomeFeatures.jpg}
-                className="col-md "
+                className=""
                 height="350px"
                 style={{ objectFit: "cover" }}
               />

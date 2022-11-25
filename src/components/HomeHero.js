@@ -1,24 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "react-bootstrap";
+
 import { BsArrowRight } from "react-icons/bs";
 
 const HomeHero = () => {
   return (
-    <section className="hero  container">
-      <div className="">
-        <div className="herotext">
-          <h1>Wonder Gold Chinenyem </h1>
-          <h4> Project Manager || Writer</h4>
-
-          <Link to="/sevices">
-            <Button variant="light" className="nav-item">
+    <>
+      <section className="hero ">
+        <div className="">
+          <div className="herotext">
+            <h1>Wonder Gold Chinenyem </h1>
+            <h4>Project Manager || Writer || Leadership Coach</h4>
+            <Link to="/about" className="btn btn-light mt-4">
               Read Bio <BsArrowRight />
-            </Button>
-          </Link>
+            </Link>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

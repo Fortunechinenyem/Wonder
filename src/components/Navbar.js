@@ -5,29 +5,18 @@ import { NavLink as Link, useNavigate } from "react-router-dom";
 import logo from "../images/wonderlogo.svg";
 const Nav = styled("nav")`
   padding: 1rem 0;
-  background-color: #324b4b;
+  background-color: #95b1b0;
 `;
 const LinksWrapper = styled("ul")`
   background-color: #fff;
-  padding: 0 2rem;
+  padding: 0 5rem;
 `;
 const SearchNavWrapper = styled("div")``;
-const ButtonWrapper = styled("div")` display: flex;justify-content: flex-end;
- @media screen and (max-width: 1024px) { justify-content: flex-start; margin-top: 0.5rem;  }`;
-const SearchForm = styled("form")`
-  margin-right: 5rem;
-`;
-const SearchInput = styled("input")`
-  border-radius: 0px;
-  outline: none;
-  border: none;
-`;
-const Button = styled("button")`
-  padding: 0.3rem 1.3rem;
-  border: none;
-`;
+const ButtonWrapper = styled("div")`display: flex;justify-content: flex-end;
+ @media screen and (max-width: 1024px) { justify-content: flex-end; margin-top: 0.5rem;  }`;
+
 const LogoWrapper = styled("div")`
-  margin-right: 2rem;
+  margin-right: 5rem;
 `;
 const Logo = () => {
   const navigate = useNavigate();
@@ -52,67 +41,56 @@ const NavbarToggler = () => {
     </button>
   );
 };
-const SearchBar = () => {
-  return (
-    <SearchForm className="form-inline my-2 my-lg-0">
-      <SearchInput
-        className="form-control mr-sm-2"
-        type="search"
-        placeholder="Search"
-        aria-label="Search"
-      />
-    </SearchForm>
-  );
-};
+
 const NavLinks = () => {
   return (
     <LinksWrapper className="navbar-nav mr-auto">
-      <li className="nav-item ">
+      <li className="nav-item active">
         <Link className="nav-link" to="/">
-          Home <span className="sr-only">(current)</span>
+          Home <span className="sr-only"></span>
         </Link>
       </li>
+
       <li className="nav-item">
         <Link className="nav-link" to="/about" style={{ color: "#268f7d" }}>
-          About Wonder
+          About Me
         </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/services" style={{ color: "#268f7d" }}>
-          Services
+        <Link className="nav-link" to="/work" style={{ color: "#268f7d" }}>
+          Work
         </Link>
       </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/training" style={{ color: "#268f7d" }}>
+          Training
+        </Link>
+      </li>
+
       <li className="nav-item">
         <Link className="nav-link" to="/blog" style={{ color: "#268f7d" }}>
           Blog
         </Link>
       </li>
-
       <li className="nav-item">
         <Link className="nav-link" to="/contact" style={{ color: "#268f7d" }}>
-          Contact Us
+          Get In Touch
         </Link>
       </li>
     </LinksWrapper>
   );
 };
-const LoginButton = () => {
-  return <Button>Login</Button>;
-};
+
 const NavBar = () => {
   return (
     <Nav className="navbar navbar-expand-lg px-3">
-      <Logo />
-      <NavbarToggler />
+      <Logo /> <NavbarToggler />
       <SearchNavWrapper
         className="collapse navbar-collapse"
         id="navbarSupportedContent"
       >
-        <SearchBar />
         <NavLinks />
-        <ButtonWrapper>
-          <LoginButton />
-        </ButtonWrapper>
+        <ButtonWrapper></ButtonWrapper>
       </SearchNavWrapper>
     </Nav>
   );

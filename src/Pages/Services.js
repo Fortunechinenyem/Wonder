@@ -1,7 +1,16 @@
 import React from "react";
+import ServicesFeat1 from "../components/ServicesFeat1";
+import ServicesFeat2 from "../components/ServicesFeat2";
+import ServicesHero from "../components/ServicesHero";
 
 const Services = () => {
-  return <div></div>;
+  return (
+    <>
+      <ServicesHero />
+      <ServicesFeat1 />
+      <ServicesFeat2 />
+    </>
+  );
 };
 
 export default Services;

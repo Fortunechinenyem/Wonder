@@ -57,8 +57,8 @@ const NavLinks = () => {
         </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/work" style={{ color: "#268f7d" }}>
-          Work
+        <Link className="nav-link" to="/services" style={{ color: "#268f7d" }}>
+          Services
         </Link>
       </li>
       <li className="nav-item">

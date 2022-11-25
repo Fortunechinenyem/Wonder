@@ -166,6 +166,20 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.section__title--services {
+  color: var(--clr-dark);
+  position: relative;
+}
+
+.section__title--services::after {
+  content: "";
+  display: block;
+  width: 2em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: var(--clr-accent);
+}
 /* Blog */
 .bloghero {
   width: 100vw;

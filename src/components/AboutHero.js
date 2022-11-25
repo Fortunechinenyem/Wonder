@@ -4,18 +4,18 @@ import logo from "../images/img 2.jpg";
 
 const AboutHero = () => {
   return (
-    <section className="container row ">
-      <div className="d-flex  g-5 mx-auto ">
-        <div className="col-md text-center">
-          <h1>About Wonder</h1>
-        </div>
+    <section className=" ">
+      <div className=" mx-auto ">
         <img
           src={logo}
           alt={AboutHero.jpg}
-          className="col-md "
+          className="mx-auto "
           height="500px"
           style={{ objectFit: "cover" }}
         />
+        <div className="text-center section__title section__title--services">
+          <h1>About Wonder</h1>
+        </div>
       </div>
     </section>
   );

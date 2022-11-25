@@ -7,9 +7,9 @@ const HomeFeatures = () => {
   return (
     <>
       <section>
-        <div className="d-flex m-3 w-75 g-3 mx-auto text-center">
-          <div className="card">
-            <div className="card-body">
+        <div className="d-flex m-3 w-100 g-3  text-center">
+          <div className="card ">
+            <div className="card-body mx-auto">
               <img
                 src={logo1}
                 alt={HomeFeatures.jpg}
@@ -25,7 +25,7 @@ const HomeFeatures = () => {
             </div>
           </div>
           <div className="card">
-            <div className="card-body">
+            <div className="card-body mx-auto">
               <img
                 src={logo2}
                 alt={HomeFeatures.jpg}

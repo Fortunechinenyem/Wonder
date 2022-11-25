@@ -10,7 +10,7 @@ const HomeHero = () => {
         <div className="">
           <div className="herotext">
             <h1>Wonder Gold Chinenyem </h1>
-            <h4>Project Manager || Writer || Leadership Coach</h4>
+            <h4>Project Development Officer || Writer || Leadership Coach</h4>
             <Link to="/about" className="btn btn-light mt-4">
               Read Bio <BsArrowRight />
             </Link>

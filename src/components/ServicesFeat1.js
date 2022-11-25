@@ -12,7 +12,7 @@ const ServicesFeat1 = () => {
           <h2>​Project Management</h2>
           <p>
             {" "}
-            An Expert in Development of especially small and mediem enterprises
+            An Expert in Development of especially small and medium enterprises
           </p>
           <Link to="/sevices">
             <Button variant="dark" className="nav-item">

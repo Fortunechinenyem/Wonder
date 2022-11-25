@@ -11,6 +11,7 @@ const Blog = () => {
       <BlogFeat1 />
       <BlogFeat2 />
       <BlogFeat3 />
+      <Footer />
     </>
   );
 };
